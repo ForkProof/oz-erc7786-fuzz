@@ -1,0 +1,17 @@
+No files changed, compilation skipped
+
+Ran 11 tests for test/OpenBridgeFuzz.t.sol:OpenBridgeFuzzTest
+[PASS] testFuzz_ExactlyOnceAfterThreshold(uint8[12],uint256,bytes) (runs: 3000, μ: 366172, ~: 361596)
+[PASS] testFuzz_ForgedSenderRejected(bytes,uint256) (runs: 3000, μ: 60939, ~: 60891)
+[PASS] testFuzz_OutsiderCannotCount(uint8,uint256) (runs: 3000, μ: 223504, ~: 188526)
+[PASS] test_FailedExecutionRetryOnce() (gas: 396600)
+[PASS] test_MalformedRecipientStuck() (gas: 179997)
+[PASS] test_PayloadVariantSplitsTrackers() (gas: 281806)
+[PASS] test_ReaddedGatewayCannotDoubleCount() (gas: 113218)
+[PASS] test_RecipientChainIdIgnored() (gas: 180525)
+[PASS] test_ReentrancyNoDoubleExecution() (gas: 944314)
+[PASS] test_RemovedGatewayReceiptStillCounts() (gas: 187381)
+[PASS] test_TrailingJunkSenderRejected() (gas: 75111)
+Suite result: ok. 11 passed; 0 failed; 0 skipped; finished in 1.20s (3.61s CPU time)
+
+Ran 1 test suite in 1.20s (1.20s CPU time): 11 tests passed, 0 failed, 0 skipped (11 total tests)
